@@ -1,0 +1,8 @@
+-#!/bin/sh      
+ssh root@52.21.166.231 <<EOF        
+ cd /home/ubuntu/demoapp  
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
