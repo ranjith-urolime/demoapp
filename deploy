@@ -1,5 +1,5 @@
 #!/bin/sh      
-ssh root@52.21.166.231  <<EOF        
+ ssh root@52.21.166.231  <<EOF        
  cd /root/demoapp  
  git pull https://github.com/ranjith-urolime/demoapp.git      
  npm install --production       
